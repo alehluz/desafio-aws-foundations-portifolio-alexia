@@ -12,6 +12,7 @@ Site estático hospedado no S3 e distribuído via CloudFront com HTTPS
 - AWS Certificate Manager (SSL/TLS)
 - (Opcional) Route 53 (DNS)
 
+
 ![diagram](img/diagrama-s3-cloudFront.drawio.png)
 
 ##  Evidências de Configuração
