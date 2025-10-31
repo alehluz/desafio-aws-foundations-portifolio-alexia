@@ -12,28 +12,33 @@ Site estático hospedado no S3 e distribuído via CloudFront com HTTPS
 - AWS Certificate Manager (SSL/TLS)
 - (Opcional) Route 53 (DNS)
 
+![diagram](img/diagrama-s3-cloudFront.drawio.png)
 
 ##  Evidências de Configuração
 
 ###  AWS Certificate Manager (ACM)
 Criação do certificado público para o domínio `www.alexialuz.com`.
+
 ![ACM](img/Certificate_Manager_ACM.png)
 
 
 
 ###  Certificado SSL/TLS emitido
+
 ![Certificado ACM](img/certificado_SSL_TLS_ACM.png)
 
 
 
 ###  Distribuição no Amazon CloudFront
 Configuração da distribuição para entrega global do site.
+
 ![CloudFront](img/CloudFront.png)
 
 
 
 ###  Configuração de segurança (WAF)
 Tela de configuração do WAF – neste caso **não habilitado**, por não ser necessário para site estático.
+
 ![WAF](img/WAF_AWS.png)
 
 ---
